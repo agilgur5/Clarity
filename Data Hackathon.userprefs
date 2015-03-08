@@ -1,13 +1,25 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CreateSphere.cs">
     <Files>
-      <File FileName="Assets/TweetGeneration.cs" Line="43" Column="1" />
-      <File FileName="Assets/CreateSphere.cs" Line="14" Column="18" />
+      <File FileName="Assets/TweetGeneration.cs" Line="45" Column="1" />
+      <File FileName="Assets/CreateSphere.cs" Line="63" Column="59" />
       <File FileName="Assets/ChangeScene.cs" Line="1" Column="1" />
-      <File FileName="Assets/CreateHands.cs" Line="9" Column="29" />
-      <File FileName="Assets/Scripts/AddTextToTexture.cs" Line="37" Column="1" />
+      <File FileName="Assets/CreateHands.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/AddTextToTexture.cs" Line="1" Column="1" />
+      <File FileName="Assets/TCPSocketReader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GetKinect.cs" Line="34" Column="19" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True" />
+            <Node name="CreateSphere.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
