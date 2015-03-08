@@ -1,12 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TCPSocketReader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CreateSphere.cs">
     <Files>
-      <File FileName="Assets/TweetGeneration.cs" Line="20" Column="3" />
-      <File FileName="Assets/CreateSphere.cs" Line="1" Column="1" />
-      <File FileName="Assets/ChangeScene.cs" Line="9" Column="3" />
-      <File FileName="Assets/CreateHands.cs" Line="32" Column="16" />
-      <File FileName="Assets/TCPSocketReader.cs" Line="28" Column="3" />
+      <File FileName="Assets/TweetGeneration.cs" Line="43" Column="1" />
+      <File FileName="Assets/CreateSphere.cs" Line="14" Column="18" />
+      <File FileName="Assets/ChangeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/CreateHands.cs" Line="9" Column="29" />
+      <File FileName="Assets/Scripts/AddTextToTexture.cs" Line="37" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
