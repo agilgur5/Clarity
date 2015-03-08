@@ -7,13 +7,14 @@ public class CreateSphere : MonoBehaviour {
 	 * This code is HEAVILY inspired by the tutorial "Brick Shooter". So if you have trouble understanding, go look at this tutorial.
 	 */
 
-	const float armNormalValue = 4f; // "Diameter" of the environment. Ideally, should be taken by the Kinect.
+	const float armNormalValue = 8f; // "Diameter" of the environment. Ideally, should be taken by the Kinect.
 	const float min_space = 0.2f; // The minimal space between balls
 	const float r_circle = 1f; // The diameter of a ball (ideally, should be taken directly from the prefab of the sphere)
 	public Rigidbody sphere; // The prefab of the sphere
+	public Transform oculusCam;
 	
 	void Start () {
-		Vector3 cameraValues = Camera.main.gameObject.transform.position; // Take the xyz of the camera
+		Vector3 cameraValues = oculusCam.GetComponent<Transform>().position; // Take the xyz of the camera
 		for (float pi = 0; pi <= (Mathf.PI); pi = pi + (Mathf.PI/10)) { // (Using spherical coordinates)
 			// How many balls should we display every "row"? 
 			float circ = Mathf.PI * 2 * armNormalValue * Mathf.Sin(pi); // calculating the circumference of each "row"
