@@ -16,7 +16,6 @@ public class TweetGeneration : MonoBehaviour {
 	public Transform TextPrefab;
 	// create 3d text mesh from prefab
 	void CreateText(string text, int x, int y, int z) {
-		GameObject prefab = (GameObject)Resources.Load ("Prefab/TextPrefab", typeof(GameObject));
 		Transform txtMeshTransform = (Transform)Instantiate (TextPrefab, new Vector3(x, y, z), Quaternion.identity);
 
 		TextMesh txtMesh = txtMeshTransform.GetComponent<TextMesh> ();
